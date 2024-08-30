@@ -34,5 +34,6 @@ button {
 }
 
 button:hover {
-    background-color:chartreuse;
+    background-color:rgb(30, 212, 94);
+    padding: 0 10px;
 }
