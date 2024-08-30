@@ -1,0 +1,55 @@
+/* サイト全体のcss */
+@charset "UTF-8";
+
+body {
+  background-color: #000000;
+}
+
+/* ヘッダー */
+header {
+  background-color: #fff;
+  background-image: url(./img/Great_Sage_Anime.webp);
+  background-size: cover;
+  color: #333;
+  padding: 90px 0;
+  text-align: center;
+}
+
+
+/* メニュー */
+.main-menu ul {
+  padding: 10px 0;
+  color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 20px;
+}
+.main-menu{
+  font-size: 40px;
+}
+
+
+/* メイン */
+.main-home {
+  text-align: center;
+  font-size: 47px;
+  color: #397bf5de;
+}
+.home-d {
+  text-align: center;
+  font-size: 32px;
+  color: yellowgreen;
+}
+.main-center {
+  margin-bottom: px;
+  font-size: 37px;
+  text-align: center;
+  color: rgb(182, 127, 255);
+}
+.center-d {
+  text-align: center;
+  font-size: 32px;
+  color: yellowgreen;
+}

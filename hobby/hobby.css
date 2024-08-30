@@ -1,0 +1,62 @@
+
+/* ボックス*/
+.main{
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    font-size: 150%;
+}
+
+ol li {
+    margin: 0;
+    padding: 5px;
+    color: rgb(18, 146, 97);
+}
+
+ol p {
+    margin: 0;
+    padding: 10px;
+    color: #4042a0;
+}
+
+.box1{
+    text-align: center;
+    width: 48%;
+    padding: 0.5em 0.5em;
+    margin: 2em auto;
+    font-weight: bold;
+    color:black;
+    background: #FFF;
+    border:solid 3px green;
+    border-radius: 10px;
+}
+
+.game {
+    color: #ff4f22;
+}
+
+.read {
+    color: #ff4f22;
+}
+
+.watch {
+    color: #ff4f22;
+}
+
+.into {
+    color: #ff4f22;
+}
+
+.box2 h1{
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    list-style: none;
+    padding: 0;
+    font-size: 150%;
+}

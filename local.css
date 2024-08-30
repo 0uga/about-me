@@ -1,0 +1,25 @@
+/* メイン*/
+main {
+    font-size: 24px;
+    color: #38bd38;
+    text-align: center;
+}
+
+
+/* 画像 */
+
+.local-img1 {
+    object-fit: cover;
+    width: 424px;
+    height: 800px;
+}
+.local-img2 {
+    object-fit: cover;
+    width: 424px;
+    height: 800px;
+}
+.local-img3 {
+    object-fit: cover;
+    width: 424px;
+    height: 800px;
+}
