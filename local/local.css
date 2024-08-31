@@ -23,3 +23,24 @@ main {
     width: 424px;
     height: 800px;
 }
+
+.manganzi-img1 {
+    width: 460px;
+    height: 330px;
+    border:solid 3px rgb(74, 165, 18);
+}
+.manganzi-img2 {
+    width: 450px;
+    height: 331px;
+    border:solid 3px green;
+}
+
+.kare-img1 {
+    width: 500px;
+    height: 350px;
+    border:solid 3px rgb(248, 117, 10);
+}
+.kare-img2 {
+    width: 500px;
+    border:solid 3px rgb(11, 37, 230);
+}
