@@ -34,23 +34,23 @@ header {
 /* メイン */
 .main-home {
   text-align: center;
-  font-size: 47px;
+  font-size: 42px;
   color: #397bf5de;
 }
 .home-d {
   text-align: center;
-  font-size: 32px;
+  font-size: 27px;
   color: yellowgreen;
 }
 .main-center {
   margin-bottom: px;
-  font-size: 37px;
+  font-size: 32px;
   text-align: center;
   color: rgb(182, 127, 255);
 }
 .center-d {
   text-align: center;
-  font-size: 32px;
+  font-size: 27px;
   color: yellowgreen;
 }
 

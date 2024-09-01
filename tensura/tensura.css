@@ -1,0 +1,25 @@
+/* メイン */
+section {
+    background-color: rgb(248, 250, 249);
+}
+
+h1 {
+    color: rgb(107, 225, 225);
+    text-align: center;
+}
+
+h1 p {
+    color: #000;
+    font-size: large;
+}
+
+/* 画像 */
+.tensura-novel {
+    width: 200px;
+}
+.tensura-comix {
+    width: 200px;
+}
+.tensura-anime {
+    width: 200px;
+}
