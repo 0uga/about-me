@@ -64,7 +64,8 @@ img {
   img {
     max-width: 960px;
   }
-  div {
+  body {
     text-align: center;
+    justify-content: center;
   }
 }
