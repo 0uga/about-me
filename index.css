@@ -54,9 +54,17 @@ header {
   color: yellowgreen;
 }
 
+/* PC用のCSSはメディアクエリの外に記述する */
+img {
+  width: 100%;
+}
 
-@media screen and (max-width:480px) {
-
-	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
-
+@media screen and (max-width:960px) {
+	/*　画面サイズが960px以下の場合ここの記述が適用される　*/
+  img {
+    max-width: 960px;
+  }
+  div {
+    text-align: center;
+  }
 }
