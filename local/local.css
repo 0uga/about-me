@@ -9,19 +9,19 @@ main {
 /* 画像 */
 
 .local-img1 {
-    object-fit: cover;
-    width: 424px;
-    height: 800px;
+    width: 330px;
+    height: 500px;
+    border:solid 3px rgb(29, 49, 232);
 }
 .local-img2 {
-    object-fit: cover;
-    width: 424px;
-    height: 800px;
+    width: 330px;
+    height: 500px;
+    border:solid 3px rgb(19, 143, 245);
 }
 .local-img3 {
-    object-fit: cover;
-    width: 424px;
-    height: 800px;
+    width: 330px;
+    height: 500px;
+    border:solid 3px rgb(255, 68, 16);
 }
 
 .manganzi-img1 {
@@ -43,4 +43,16 @@ main {
 .kare-img2 {
     width: 500px;
     border:solid 3px rgb(11, 37, 230);
+}
+
+.toretore-img1 {
+    width: 440px;
+    height: 350px;
+    border:solid 3px rgb(230, 230, 11);
+}
+.toretore-img2 {
+    width: 490px;
+    height: 350px;
+    border:solid 3px rgb(37, 234, 244);
+
 }
