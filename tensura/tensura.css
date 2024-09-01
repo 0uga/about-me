@@ -5,21 +5,45 @@ section {
 
 h1 {
     color: rgb(107, 225, 225);
-    text-align: center;
+
 }
+
 
 h1 p {
     color: #000;
     font-size: large;
 }
 
-/* 画像 */
-.tensura-novel {
-    width: 200px;
+/* 文庫紹介 */
+.tensura {
+    display: flex;
+    justify-content: space-around ; /* 画像の間に均等に余白を設定 */
 }
-.tensura-comix {
-    width: 200px;
+.tensura img {
+    width: 20%; /* 画像が3つ並ぶように設定 */
+    height: auto;
+    border:solid 3px rgb(232, 29, 164);
 }
-.tensura-anime {
-    width: 200px;
+
+.mozi {
+    display: flex;
+    color: rgb(116, 57, 5);
+    justify-content: space-around 
+    
+}
+
+/* キャラ */
+.mainkyara {
+    display: flex;
+    justify-content: space-around ;
+}
+.h3 img {
+    width: 100px; /* 画像が3つ並ぶように設定 */
+    height: auto;
+}
+
+.kyaraname {
+    display: flex;
+    color: rgb(116, 57, 5);
+    justify-content: space-around 
 }
