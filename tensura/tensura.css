@@ -4,12 +4,16 @@ section {
 }
 
 h1 {
-    color: rgb(107, 225, 225);
+    color: rgb(32, 120, 253);
 
+}
+h2 {
+    color: rgb(107, 225, 225);
+    text-align: center;
 }
 
 
-h1 p {
+h2 p {
     color: #000;
     font-size: large;
 }
