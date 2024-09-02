@@ -59,13 +59,24 @@ img {
   width: 100%;
 }
 
-@media screen and (min-width:960px) {
-	/*　画面サイズが960px以下の場合ここの記述が適用される　*/
-  img {
-    max-width: 960px;
-  }
+@media screen and (max-width:480px) {
+	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
+
   body {
-    text-align: center;
-    justify-content: center;
+    background-color: #000000;
+  }
+
+  /* ヘッダー */
+  header {
+  background-color: #fff;
+  background-size: cover;
+  background-image: url(./img/daikenja.webp);
+  color: #333;
+  padding: 90px px;
+  text-align: center;
+  }
+
+  .main-menu{
+    font-size: 2rem;
   }
 }

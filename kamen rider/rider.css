@@ -1,0 +1,15 @@
+/* メイン */
+section {
+    background-color: rgb(248, 250, 249);
+}
+
+h2 {
+    color: rgb(4, 151, 38);
+    text-align: center;
+}
+h2 li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
