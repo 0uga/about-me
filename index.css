@@ -18,16 +18,15 @@ header {
 
 /* メニュー */
 .main-menu ul {
-  padding: 10px 0;
+  padding: 5px 0;
   color: #fff;
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 1rem;
-  padding: 0 20px;
 }
 .main-menu{
-  font-size: 40px;
+  font-size: 30px;
 }
 
 
@@ -61,22 +60,4 @@ img {
 
 @media screen and (max-width:480px) {
 	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
-
-  body {
-    background-color: #000000;
-  }
-
-  /* ヘッダー */
-  header {
-  background-color: #fff;
-  background-size: cover;
-  background-image: url(./img/daikenja.webp);
-  color: #333;
-  padding: 90px px;
-  text-align: center;
-  }
-
-  .main-menu{
-    font-size: 2rem;
-  }
 }
