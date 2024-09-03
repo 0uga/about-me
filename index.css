@@ -3,13 +3,14 @@
 
 body {
   background-color: #fff;
-  background-image: url(./img/daikenja.webp);
-  background-size: cover;
 }
 
 /* ヘッダー */
 header {
   color: #333;
+  background-color: #fff;
+  background-image: url(./img/daikenja.webp);
+  background-size: cover;
   padding: 90px 0;
   text-align: center;
 }
