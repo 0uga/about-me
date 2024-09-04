@@ -50,14 +50,9 @@ h2 ul{
     padding: 5px;
 }
 
-.area-list {
-    display: flex;
-    flex-direction: grid;
-}
 
 .syouwa {   
     text-align: left;
-    
 }
 .neo {
     text-align: left;
@@ -75,7 +70,7 @@ h2 ul{
 
 @media screen and (max-width:600px){
     .main-menu {
-        font-size: 180rem
+        font-size: 180px
     }
 
     section {
