@@ -27,7 +27,7 @@ h2 ul{
 }
 
 .main li {
-    width: 100%;
+    width: max-content;
     padding: 1em 1em;
     margin: 5em auto;
     font-weight: bold;
@@ -40,9 +40,15 @@ h2 ul{
     padding: 5px;
 }
 
+.area-list {
+    display: flex;
+    flex-direction: grid;
+}
 
-.syouwa {
+
+.syouwa {   
     text-align: left;
+    
 }
 .neo {
     text-align: right;
