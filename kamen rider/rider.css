@@ -1,7 +1,7 @@
 /* メイン */
 section {
     background-color: rgb(248, 250, 249);
-    padding: 0 2%;
+    padding: 2%;
     margin: 0 10%;
 }
 
@@ -70,7 +70,7 @@ h2 ul{
 
 @media screen and (max-width:600px){
     .main-menu {
-        font-size: 180px
+        font-size: 180rem
     }
 
     section {
