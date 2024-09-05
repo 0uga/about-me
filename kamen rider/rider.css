@@ -1,24 +1,30 @@
 /* メイン */
+body {
+    font-weight: 400;
+    color: #191919;
+    font-size: 12px;
+}
+
+
+.main-menu {
+    padding: 0% 100px;
+}
+
 section {
     background-color: rgb(248, 250, 249);
     padding: 2%;
     margin: 0 -10%;
 }
 
-body {
-    font-weight: 400;
-    font-size: 12px;
-    color: #191919;
-    line-height: 1.2;
-}
-
-.main-menu ul {
-    padding: 5px 0;
+h1 {
+    color: rgb(14, 167, 78);
+    font-size: 250%;
 }
 
 h2 {
     color: rgb(4, 151, 38);
     text-align: center;
+    line-height: 1.2;
 }
 h2 ul{
     padding: 10px 0;
