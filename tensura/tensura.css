@@ -12,6 +12,11 @@
     font-size: 30px;
 }
 
+body {
+    font-weight: 400;
+    color: #191919;
+}
+
 /* メイン */
 section {
     background-color: rgb(248, 250, 249);
@@ -30,7 +35,7 @@ h2 {
 
 h2 p {
     color: #000;
-    font-size: 100%;
+    font-size: 70%;
 }
 
 /* 文庫紹介 */
