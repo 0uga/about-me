@@ -79,6 +79,9 @@ h2 ul{
 .heisei2 {
     text-align: left;
 }
+.heisei-syouwa {
+    text-align: left;
+}
 .reiwa {
     text-align: left
 }
@@ -93,26 +96,28 @@ h2 ul{
     section {
         background-color: rgb(248, 250, 249);
         padding: 2%;
-        margin: 0 -10;
+        margin: 0;
     }
     h2 p {
         font-size: 60%;
     }
     /* box */
     .syouwa {
-        font-size: 80%;
-        margin: 0 100%;
+        font-size: 120%;
     }
     .neo {
-        font-size: 85%;
+        font-size: 120%;
     }
     .heisei1 {
-        font-size: 85%;
+        font-size: 120%;
     }
     .heisei2 {
-        font-size: 85%;
+        font-size: 120%;
+    }
+    .heisei-syouwa {
+        font-size: 105%;
     }
     .reiwa {
-        font-size: 85%;
+        font-size: 120%;
     }
 }
