@@ -18,7 +18,7 @@ header {
 
 /* メニュー */
 .main-menu ul {
-  font-size: 120%;
+  font-size: 100%;
   padding: 5px 0;
   color: #fff;
   list-style: none;
@@ -62,6 +62,6 @@ img {
 @media screen and (max-width:600px){
 	/*　画面サイズが600px以下の場合ここの記述が適用される　*/
   .main-menu ul{
-    font-size: 95%
+    font-size: 85%
   }
 }
