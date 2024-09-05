@@ -72,9 +72,7 @@ img {
   width: 100%;
 }
 
-@media screen and (max-width:240px){
-	/*　画面サイズが240px以下の場合ここの記述が適用される　*/
-
+@media screen and (max-width:600px){
   /* ヘッダー*/
   header {
     color: #333;
