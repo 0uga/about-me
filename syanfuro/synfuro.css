@@ -13,7 +13,7 @@
 }
 
 /* メイン */
-section {
+main {
     background-color: rgb(248, 250, 249);
 }
 
@@ -22,20 +22,43 @@ h1 {
     font-size: 200%;
 }
 
-main h2 {
+.main1 h2 {
     text-align: center;
     color: rgb(239, 11, 11);
 }
-.main p {
+.main1 p {
     text-align: center;
     color: #000;
     font-size: 100%;
 }
 
+/* 文庫紹介 */
+.syanfuro {
+    display: flex;
+    justify-content: space-around ;
+}
+.syanfuro-img {
+    width: 20%; 
+    height: auto;
+    border:solid 3px rgb(232, 29, 164);
+}
+
+.mozi {
+    display: flex;
+    justify-content: space-around;
+}
+.mozi p {
+    font-size: 50%;
+    color: rgb(239, 11, 11);
+}
 
 @media screen and (max-width:600px){
     /* メニュー */
     .main-menu2 ul li {
         font-size: 70%;
+    }
+    /* 文庫紹介 */
+    .mozi p {
+        font-size: 50%;
     }
 }
