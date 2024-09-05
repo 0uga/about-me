@@ -5,9 +5,18 @@ body {
     font-size: 12px;
 }
 
-
-.main-menu {
-    padding: 0% 100px;
+/* メニュー */
+.main-menu2 ul {
+    font-size: 100%;
+    padding: 5px 0;
+    color: #fff;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.main-menu2 {
+    font-size: 30px;
 }
 
 section {
@@ -76,29 +85,34 @@ h2 ul{
 
 
 @media screen and (max-width:700px){
-    .main-menu {
-        font-size: 20%;
+    /* メニュー */
+    .main-menu2 ul li {
+        font-size: 70%;
     }
-
+    /* メイン */
     section {
         background-color: rgb(248, 250, 249);
         padding: 2%;
         margin: 0 -10;
     }
-
+    h2 p {
+        font-size: 60%;
+    }
+    /* box */
     .syouwa {
         font-size: 80%;
+        margin: 0 100%;
     }
     .neo {
-        font-size: 100%;
+        font-size: 85%;
     }
     .heisei1 {
         font-size: 85%;
     }
     .heisei2 {
-        font-size: 84%;
+        font-size: 85%;
     }
     .reiwa {
-        font-size: 80%;
+        font-size: 85%;
     }
 }

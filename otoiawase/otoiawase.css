@@ -41,3 +41,6 @@ button:hover {
     background-color:rgb(30, 212, 94);
     padding: 0 10px;
 }
+
+@media screen and (max-width:600px){
+}

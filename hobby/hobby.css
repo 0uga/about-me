@@ -22,9 +22,43 @@ ol p {
     color: #4042a0;
 }
 
+/* box */
 .box1{
     text-align: center;
-    width: 48%;
+    width: 80%;
+    padding: 0.5em 0.5em;
+    margin: 2em auto;
+    font-weight: bold;
+    color:black;
+    background: #FFF;
+    border:solid 3px green;
+    border-radius: 10px;
+}
+.box2{
+    text-align: center;
+    width: 80%;
+    padding: 0.5em 0.5em;
+    margin: 2em auto;
+    font-weight: bold;
+    color:black;
+    background: #FFF;
+    border:solid 3px green;
+    border-radius: 10px;
+}
+.box3{
+    text-align: center;
+    width: 80%;
+    padding: 0.5em 0.5em;
+    margin: 2em auto;
+    font-weight: bold;
+    color:black;
+    background: #FFF;
+    border:solid 3px green;
+    border-radius: 10px;
+}
+.box4{
+    text-align: center;
+    width: 80%;
     padding: 0.5em 0.5em;
     margin: 2em auto;
     font-weight: bold;
@@ -34,6 +68,13 @@ ol p {
     border-radius: 10px;
 }
 
+.box4 h2 {
+    list-style: none;
+    padding: 0;
+    font-size: 150%;
+}
+
+/* boxラベル */
 .game {
     color: #ff4f22;
 }
@@ -50,13 +91,13 @@ ol p {
     color: #ff4f22;
 }
 
-.box2 h1{
-    margin: 0;
-    padding: 0;
-}
 
-h2 {
-    list-style: none;
-    padding: 0;
-    font-size: 150%;
+
+@media screen and (max-width:600px){
+    .box1 h1 {
+        font-size: 130%;
+    }
+    .box1 li {
+        font-size: 80%;
+    }
 }
