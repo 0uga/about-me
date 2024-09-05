@@ -26,7 +26,7 @@ ol p {
 .box1{
     text-align: center;
     width: 80%;
-    padding: 0.5em 0.5em;
+    padding: 0em 0.5em;
     margin: 2em auto;
     font-weight: bold;
     color:black;
@@ -37,7 +37,7 @@ ol p {
 .box2{
     text-align: center;
     width: 80%;
-    padding: 0.5em 0.5em;
+    padding: 0em 0.5em;
     margin: 2em auto;
     font-weight: bold;
     color:black;
@@ -48,7 +48,7 @@ ol p {
 .box3{
     text-align: center;
     width: 80%;
-    padding: 0.5em 0.5em;
+    padding: 0em 0.5em;
     margin: 2em auto;
     font-weight: bold;
     color:black;
@@ -59,7 +59,7 @@ ol p {
 .box4{
     text-align: center;
     width: 80%;
-    padding: 0.5em 0.5em;
+    padding: 0em 0.5em;
     margin: 2em auto;
     font-weight: bold;
     color:black;
@@ -94,10 +94,44 @@ ol p {
 
 
 @media screen and (max-width:600px){
+    /* game */
     .box1 h1 {
         font-size: 130%;
     }
     .box1 li {
+        font-size: 80%;
+    }
+    .box1 p {
+        font-size: 75%;
+    }
+
+    /* read */
+    .box2 h1 {
+        font-size: 130%;
+    }
+    .box2 li {
+        font-size: 90%;
+    }
+    .box2 p {
+        font-size: 75%;
+    }
+
+    /* watch */
+    .box3 h1 {
+        font-size: 130%;
+    }
+    .box3 li {
+        font-size: 90%;
+    }
+    .box3 p {
+        font-size: 75%;
+    }
+
+    /* into */
+    .box4 h1 {
+        font-size: 130%;
+    }
+    .box4 h2 li {
         font-size: 80%;
     }
 }
