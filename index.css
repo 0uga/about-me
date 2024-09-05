@@ -86,29 +86,29 @@ img {
 
   /* メニュー */
   .main-menu1 ul{
-    font-size: 36%
+    font-size: 70%
   }
 
   /* メイン */
   .main-home {
   text-align: center;
-  font-size: 100%;
+  font-size: 120%;
   color: #397bf5de;
   }
   .home-d {
   text-align: center;
-  font-size: 100%;
+  font-size: 120%;
   color: yellowgreen;
   }
   .main-center {
   margin-bottom: px;
-  font-size: 100%;
+  font-size: 120%;
   text-align: center;
   color: rgb(182, 127, 255);
   }
   .center-d {
   text-align: center;
-  font-size: 100%;
+  font-size: 120%;
   color: yellowgreen;
   }
 
