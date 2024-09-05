@@ -103,21 +103,21 @@ h2 ul{
     }
     /* box */
     .syouwa {
-        font-size: 100%;
+        font-size: 90%;
     }
     .neo {
-        font-size: 120%;
+        font-size: 130%;
     }
     .heisei1 {
-        font-size: 120%;
+        font-size: 100%;
     }
     .heisei2 {
-        font-size: 120%;
+        font-size: 100%;
     }
     .heisei-syouwa {
-        font-size: 95%;
+        font-size: 85%;
     }
     .reiwa {
-        font-size: 120%;
+        font-size: 95%;
     }
 }
