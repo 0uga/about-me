@@ -31,7 +31,7 @@ button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color:chartreuse;
+    background-color:rgb(30, 212, 94);
     color:black;
     border-radius: 5px;
     /*cursor: pointer; */
@@ -39,7 +39,8 @@ button {
 
 button:hover {
     background-color:rgb(30, 212, 94);
-    padding: 0 10px;
+    padding: 10px;
+    margin: 0 10%;
 }
 
 @media screen and (max-width:600px){
