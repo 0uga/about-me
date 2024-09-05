@@ -84,7 +84,7 @@ h2 ul{
 }
 
 
-@media screen and (max-width:60px){
+@media screen and (max-width:600px){
     /* メニュー */
     .main-menu2 ul li {
         font-size: 70%;
