@@ -7,6 +7,10 @@ h1 {
     text-align: center;
 }
 
+.main-menu ul li {
+    font-size: 109%;
+}
+
 .form-group{
     text-align: center;
     color: #df6412;
