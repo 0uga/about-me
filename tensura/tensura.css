@@ -102,4 +102,19 @@ h2 p {
         font-size: 50%;
         padding: 0 10%;
     }
+
+    .game1 {
+        width: 99%;
+        height: 100%;
+    }
+    .maoryuu {
+        text-align: center;
+    }
+    .game2 {
+        width: 99%;
+        height: 100%;
+    }
+    .tenpesuto {
+        text-align: center;
+    }
 }

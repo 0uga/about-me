@@ -12,6 +12,20 @@
     font-size: 30px;
 }
 
+/* メイン */
+section {
+    background-color: rgb(248, 250, 249);
+}
+
+h1 {
+    color: rgb(239, 11, 11);
+    font-size: 250%;
+}
+
+.h2 {
+    text-align: center;
+}
+
 @media screen and (max-width:700px){
     /* メニュー */
     .main-menu2 ul li {
