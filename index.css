@@ -17,7 +17,7 @@ header {
 
 
 /* メニュー */
-.main-menu ul {
+.main-menu1 ul {
   font-size: 100%;
   padding: 5px 0;
   color: #fff;
@@ -26,7 +26,20 @@ header {
   justify-content: center;
   gap: 1rem;
 }
-.main-menu{
+.main-menu1 {
+  font-size: 30px;
+}
+
+.main-menu2 ul {
+  font-size: 100%;
+  padding: 5px 0;
+  color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.main-menu2 {
   font-size: 30px;
 }
 
@@ -59,9 +72,46 @@ img {
   width: 100%;
 }
 
-@media screen and (max-width:600px){
-	/*　画面サイズが600px以下の場合ここの記述が適用される　*/
-  .main-menu ul{
-    font-size: 85%
+@media screen and (min-width:240px){
+	/*　画面サイズが240px以下の場合ここの記述が適用される　*/
+
+  /* ヘッダー*/
+  header {
+    color: #333;
+    background-color: #fff;
+    background-image: url(./img/daikenja.webp);
+    background-size: cover;
+    padding: 10% 0;
+    font-size: 70%;
+    text-align: center;
   }
+
+  /* メニュー */
+  .main-menu1 ul{
+    font-size: 36%
+  }
+
+  /* メイン */
+  .main-home {
+  text-align: center;
+  font-size: 100%;
+  color: #397bf5de;
+  }
+  .home-d {
+  text-align: center;
+  font-size: 100%;
+  color: yellowgreen;
+  }
+  .main-center {
+  margin-bottom: px;
+  font-size: 100%;
+  text-align: center;
+  color: rgb(182, 127, 255);
+  }
+  .center-d {
+  text-align: center;
+  font-size: 100%;
+  color: yellowgreen;
+  }
+
 }
