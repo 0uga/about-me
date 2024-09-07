@@ -41,7 +41,7 @@ h2 ul{
     list-style: none;
     justify-content: center;
     gap: 1rem;
-
+    margin: -5%;
 }
 
 
@@ -98,15 +98,18 @@ h2 ul{
         padding: 2%;
         margin: 0;
     }
+    h2 ul{
+        margin: -12%;
+    }
     h2 p {
-        font-size: 60%;
+        font-size: 70%;
     }
     /* box */
     .syouwa {
         font-size: 90%;
     }
     .neo {
-        font-size: 130%;
+        font-size: 95%;
     }
     .heisei1 {
         font-size: 100%;
