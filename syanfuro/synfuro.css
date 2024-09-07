@@ -60,6 +60,9 @@ h1 {
         font-size: 70%;
     }
     /* 文庫紹介 */
+    .syanfuro-img {
+        width: 40%;
+    }
     .mozi p {
         font-size: 50%;
     }
