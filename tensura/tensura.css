@@ -35,9 +35,10 @@ h2 {
 }
 
 
-h2 p {
+.main1 p {
     color: #000;
-    font-size: 70%;
+    font-size: 90%;
+    text-align: center;
 }
 
 /* 文庫紹介 */
@@ -58,18 +59,18 @@ h2 p {
 .mozi p {
     color: rgb(234, 114, 9);
     font-size: 70%;
-    justify-content: center;
+
 
 }
 
 /* キャラ */
-.main2 p {
+.main3 p {
     text-align: center;
     color: rgb(255, 22, 5);
 }
 
 /* ゲーム */
-.main3 img {
+.main4 img {
     display: flex;
     justify-content: space-around ;
 }
@@ -112,23 +113,20 @@ h2 p {
 
     /* 文庫紹介 */
     .tensura-img {
-        justify-content: center;
+        width: 25%;
+        height: 120%;
+    }
+    .mozi p {
+        font-size: 50%;
     }
 
     /* ゲーム */
-    .game1 {
+    .tensura-game {
         width: 99%;
         height: 100%;
     }
-    .game2 {
-        width: 99%;
-        height: 100%;
-    }
-    .maoryuu {
+    .game-img {
         width: 70%;
-    
-    }
-    .tensura {
-        width: 70%;
+        display: block;
     }
 }
