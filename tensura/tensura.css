@@ -108,9 +108,9 @@ a img {
     }
 
     /* 文庫紹介 */
-    .main3 img {
-        width: 50%;
-        height: 120px;
+    .main2 img {
+        width: 30%;
+        height: 250px;
     }
     .mozi p {
         font-size: 130%;
